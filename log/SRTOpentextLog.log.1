@@ -1,0 +1,1283 @@
+2017-12-15 16:43:49.0075 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-15 16:44:27.0378 RemedyConnection:  – Connected to BMC Remedy successfully, server address:10.88.1.12
+2017-12-15 16:44:27.0378 RemedySRTAPI:  – SchemaName:SMART:OpentextIntegration
+2017-12-15 16:44:27.0561 SOAPGenerator:  – WONumber: WO0000000020426
+2017-12-15 16:44:27.0563 SOAPGenerator:  – Generated SOAPMessage:
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:smart-tbk.com:Remedy:SAPIntegration"><SOAP-ENV:Header/><SOAP-ENV:Body><urn:MT_RemedyWOReq><WONumber>WO0000000020426</WONumber><SRTFormName>Perform Fixed Asset Transfer</SRTFormName><DetailRequest>Perform Fixed Asset Transfer
+===========================================
+Requestor: MII Ikhsan Rasyidi
+PT: PT Sinarmas Distribusi Nusantara
+Company Code: 58
+Business Area: D314 - SDN Jakarta Selatan
+Business Unit/PCA: H310
+Cost Center: D341MTD001 - Yogyakarta Com MT - Asia Sakti WahidFood
+
+ASSET INFORMATION
+Request for Single Asset?: Yes
+Type of Asset: Vehicles
+Asset Location: Bulking Non Refinery
+SAP Asset Number: 1234567
+Related to Internal Order?: No
+Total Number of Internal Order: 1
+Related to Equipment Number (PM Module)?: No
+Total Number of Equipment Number (PM Module): 1
+Equipment Number (PM Module): 1
+Acquisition Value (IDR): 1
+Tax Facility: Non Bonded Zone
+Already Obtain Approval from Custom?: 
+Business Reason: ok
+
+RECEIVER
+Asset Transfer Type: Between Business Unit/PCA
+Business Unit/PCA: H310
+Cost Center: D341LOGWHS - Yogyakarta Logistic Warehouse
+
+SUPPORTING DOCUMENTS
+Is List of Internal Order Already Attached?: Yes
+Is Equipment Number Already Attached?: Yes
+Notes: 
+</DetailRequest><ActionType>CREATE</ActionType><TargetSystem>SDN</TargetSystem><isBase64>T</isBase64><RequestDate>2017-12-15T14:13:30.000+07:00</RequestDate><Function>R2R</Function><SRTLink>http://remedy-dev.smart-tbk.com:8080/ux/smart-it/#/search/WO0000000020426</SRTLink><RequestID>REQ000000016376</RequestID><SupportGroup>R2R FA PA Consumer Product Processor</SupportGroup><SupportGroupTL>R2R FA PA Consumer Product TL</SupportGroupTL></urn:MT_RemedyWOReq></SOAP-ENV:Body></SOAP-ENV:Envelope>
+2017-12-15 16:44:27.0615 SOAPGenerator:  – SOAP Response: <?xml version='1.0'?>
+<!-- see the documentation -->
+<SOAP:Envelope xmlns:SOAP='http://schemas.xmlsoap.org/soap/envelope/'>
+  <SOAP:Body>
+    <SOAP:Fault>
+      <faultcode>SOAP:Server</faultcode>
+      <faultstring>Server Error</faultstring>
+      <detail>
+        <s:SystemError xmlns:s='http://sap.com/xi/WebService/xi2.0'>
+          <context>XIAdapter</context>
+          <code>ADAPTER.JAVA_EXCEPTION</code>
+          <text><![CDATA[
+See log trace with id: n/a
+          ]]></text>
+        </s:SystemError>
+      </detail>
+    </SOAP:Fault>
+  </SOAP:Body>
+</SOAP:Envelope>
+
+2017-12-15 16:44:27.0619 OpentextController:  – ClassCastException Error on setWOResponse: java.lang.ClassCastException: com.sun.xml.internal.messaging.saaj.soap.impl.TextImpl cannot be cast to javax.xml.soap.SOAPElement
+2017-12-15 16:44:27.0631 OpentextController:  – ARException Error on sendWOtoOpentext: ERROR (330): You do not have write access to this field.; SMART:OpentextIntegration : Status__c
+ERROR (330): You do not have write access to this field.; SMART:OpentextIntegration : WSDL Send
+ERROR (330): You do not have write access to this field.; SMART:OpentextIntegration : WSDL Response
+WARNING (52): The field is a core system field and cannot be changed; SMART:OpentextIntegration : <3>
+WARNING (52): The field is a core system field and cannot be changed; SMART:OpentextIntegration : <5>
+WARNING (52): The field is a core system field and cannot be changed; SMART:OpentextIntegration : <6>
+2017-12-15 16:44:49.0077 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-15 16:45:49.0079 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-15 16:46:49.0082 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-15 16:47:10.0509 RemedyConnection:  – Connected to BMC Remedy successfully, server address:10.88.1.12
+2017-12-15 16:47:10.0510 RemedySRTAPI:  – SchemaName:SMART:OpentextIntegration
+2017-12-15 16:47:10.0703 SOAPGenerator:  – WONumber: WO0000000020426
+2017-12-15 16:47:10.0704 SOAPGenerator:  – Generated SOAPMessage:
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:smart-tbk.com:Remedy:SAPIntegration"><SOAP-ENV:Header/><SOAP-ENV:Body><urn:MT_RemedyWOReq><WONumber>WO0000000020426</WONumber><SRTFormName>Perform Fixed Asset Transfer</SRTFormName><DetailRequest>Perform Fixed Asset Transfer
+===========================================
+Requestor: MII Ikhsan Rasyidi
+PT: PT Sinarmas Distribusi Nusantara
+Company Code: 58
+Business Area: D314 - SDN Jakarta Selatan
+Business Unit/PCA: H310
+Cost Center: D341MTD001 - Yogyakarta Com MT - Asia Sakti WahidFood
+
+ASSET INFORMATION
+Request for Single Asset?: Yes
+Type of Asset: Vehicles
+Asset Location: Bulking Non Refinery
+SAP Asset Number: 1234567
+Related to Internal Order?: No
+Total Number of Internal Order: 1
+Related to Equipment Number (PM Module)?: No
+Total Number of Equipment Number (PM Module): 1
+Equipment Number (PM Module): 1
+Acquisition Value (IDR): 1
+Tax Facility: Non Bonded Zone
+Already Obtain Approval from Custom?: 
+Business Reason: ok
+
+RECEIVER
+Asset Transfer Type: Between Business Unit/PCA
+Business Unit/PCA: H310
+Cost Center: D341LOGWHS - Yogyakarta Logistic Warehouse
+
+SUPPORTING DOCUMENTS
+Is List of Internal Order Already Attached?: Yes
+Is Equipment Number Already Attached?: Yes
+Notes: 
+</DetailRequest><ActionType>CREATE</ActionType><TargetSystem>SDN</TargetSystem><isBase64>T</isBase64><RequestDate>2017-12-15T14:13:30.000+07:00</RequestDate><Function>R2R</Function><SRTLink>http://remedy-dev.smart-tbk.com:8080/ux/smart-it/#/search/WO0000000020426</SRTLink><RequestID>REQ000000016376</RequestID><SupportGroup>R2R FA PA Consumer Product Processor</SupportGroup><SupportGroupTL>R2R FA PA Consumer Product TL</SupportGroupTL></urn:MT_RemedyWOReq></SOAP-ENV:Body></SOAP-ENV:Envelope>
+2017-12-15 16:47:10.0771 SOAPGenerator:  – SOAP Response: <?xml version='1.0'?>
+<!-- see the documentation -->
+<SOAP:Envelope xmlns:SOAP='http://schemas.xmlsoap.org/soap/envelope/'>
+  <SOAP:Body>
+    <SOAP:Fault>
+      <faultcode>SOAP:Server</faultcode>
+      <faultstring>Server Error</faultstring>
+      <detail>
+        <s:SystemError xmlns:s='http://sap.com/xi/WebService/xi2.0'>
+          <context>XIAdapter</context>
+          <code>ADAPTER.JAVA_EXCEPTION</code>
+          <text><![CDATA[
+See log trace with id: n/a
+          ]]></text>
+        </s:SystemError>
+      </detail>
+    </SOAP:Fault>
+  </SOAP:Body>
+</SOAP:Envelope>
+
+2017-12-15 16:47:10.0773 OpentextController:  – ClassCastException Error on setWOResponse: java.lang.ClassCastException: com.sun.xml.internal.messaging.saaj.soap.impl.TextImpl cannot be cast to javax.xml.soap.SOAPElement
+2017-12-15 16:47:49.0083 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-15 16:48:49.0085 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-15 16:49:49.0088 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-15 16:50:49.0092 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 11:40:19.0848 org.hibernate.validator.internal.util.Version – HV000001: Hibernate Validator 5.3.6.Final
+2017-12-16 11:40:21.0982 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 11:40:48.0615 org.hibernate.validator.internal.util.Version – HV000001: Hibernate Validator 5.3.6.Final
+2017-12-16 11:40:50.0427 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 11:41:50.0428 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 11:42:08.0250 com.bmc.arsys.apitransport.ApiConfig – jrpcMode: true
+2017-12-16 11:42:08.0256 com.bmc.arsys.api.Config – jniLoadMode: 1
+2017-12-16 11:42:08.0256 com.bmc.arsys.api.Config – apiRecordingMode: 0
+2017-12-16 11:42:08.0256 com.bmc.arsys.api.Config – apiRecordingLogDir: 
+2017-12-16 11:42:08.0256 com.bmc.arsys.api.Config – useConnectionPooling: true
+2017-12-16 11:42:08.0257 com.bmc.arsys.api.Config – maxProxiesPerServer: 80
+2017-12-16 11:42:08.0257 com.bmc.arsys.api.Config – idleConnectionsPerServer: 5
+2017-12-16 11:42:08.0257 com.bmc.arsys.api.Config – connectionTimeout: 0
+2017-12-16 11:42:08.0257 com.bmc.arsys.api.Config – connectionLifespan: 0
+2017-12-16 11:42:08.0257 com.bmc.arsys.api.Config – timeUnit: MINUTES
+2017-12-16 11:42:08.0257 com.bmc.arsys.api.Config – minimumSupportedServerRpcVersion: 12
+2017-12-16 11:42:08.0257 com.bmc.arsys.api.Config – connectionMaxRetries: 1
+2017-12-16 11:42:08.0257 com.bmc.arsys.api.Config – timeLagBetweenRetriesMillSec: 100
+2017-12-16 11:42:08.0257 com.bmc.arsys.api.Config – stringizeFieldAssignments: false
+2017-12-16 11:42:08.0257 com.bmc.arsys.api.Config – stringizeSetIfQualification: false
+2017-12-16 11:42:08.0257 com.bmc.arsys.api.Config – useLegacyQualParser: false
+2017-12-16 11:42:08.0258 com.bmc.arsys.api.Config – useLegacyAssignParser: false
+2017-12-16 11:42:08.0258 com.bmc.arsys.api.Config – useLegacyQualFormatter: false
+2017-12-16 11:42:08.0258 com.bmc.arsys.api.Config – useLegacyAssignFormatter: false
+2017-12-16 11:42:08.0259 com.bmc.arsys.api.ARServerUser – APITIMEOUT from system property : null
+2017-12-16 11:42:08.0260 com.bmc.arsys.api.ARServerUser – APITIMEOUT from Environment : null
+2017-12-16 11:42:08.0260 com.bmc.arsys.api.ARServerUser – AROVERLAYGROUPS from system property : null
+2017-12-16 11:42:08.0260 com.bmc.arsys.api.ARServerUser – AROVERLAYGROUPS from Environment : null
+2017-12-16 11:42:08.0728 com.bmc.arsys.utils.ARFileHandler – File Not Found while trying to read 
+java.io.FileNotFoundException: /tmp/.apiSource.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at java.io.FileReader.<init>(FileReader.java:58)
+	at com.bmc.arsys.utils.ARFileHandler.readFromFile(ARFileHandler.java:589)
+	at com.bmc.arsys.utils.ARConfigPersistence.retrieveStoredKey(ARConfigPersistence.java:75)
+	at com.bmc.arsys.utils.ARMachineGUID.setMachineGuid(ARMachineGUID.java:43)
+	at com.bmc.arsys.apitransport.session.ArRpcCallContext.<clinit>(ArRpcCallContext.java:105)
+	at com.bmc.arsys.apitransport.session.ApiRpcClientStubBase.<init>(ApiRpcClientStubBase.java:58)
+	at com.bmc.arsys.api.session.ARRpcClientStub.<init>(ARRpcClientStub.java:45)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.bmc.arsys.apitransport.session.ApiRpcClientStubFactoryImpl.createARRpcClientStub(ApiRpcClientStubFactoryImpl.java:40)
+	at com.bmc.arsys.api.ProxyJRpc.getRpcClient(ProxyJRpc.java:111)
+	at com.bmc.arsys.api.ProxyJRpc.<init>(ProxyJRpc.java:68)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.bmc.arsys.apitransport.connection.ApiProxyFactory.createProxyInstance(ApiProxyFactory.java:91)
+	at com.bmc.arsys.apitransport.connection.ApiProxyFactory.createProxy(ApiProxyFactory.java:162)
+	at com.bmc.arsys.api.ProxyManager.createProxy(ProxyManager.java:602)
+	at com.bmc.arsys.api.ProxyPool.createProxy(ProxyPool.java:106)
+	at com.bmc.arsys.apitransport.connection.ApiProxyPool.createAProxy(ApiProxyPool.java:253)
+	at com.bmc.arsys.apitransport.connection.ApiProxyPool.get(ApiProxyPool.java:204)
+	at com.bmc.arsys.apitransport.connection.ApiProxyManager.getProxy(ApiProxyManager.java:210)
+	at com.bmc.arsys.api.PoolingProxyManager.getProxy(PoolingProxyManager.java:93)
+	at com.bmc.arsys.apitransport.connection.ApiProxyManager.getProxy(ApiProxyManager.java:164)
+	at com.bmc.arsys.api.ARServerUser.verifyUser(ARServerUser.java:1086)
+	at com.bmc.mii.remedy.RemedyConnection.connectToRemedy(RemedyConnection.java:30)
+	at com.bmc.mii.opentext.controller.OpentextController.sendWOtoOpentext(OpentextController.java:52)
+	at com.bmc.mii.controller.ConnectionTesting.getConnectionResult(ConnectionTesting.java:36)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:133)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:97)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:967)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:901)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:861)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:624)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:506)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:962)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1115)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2017-12-16 11:42:08.0733 com.bmc.arsys.utils.ARFileHandler – File Not Found while trying to read 
+java.io.FileNotFoundException: /var/tmp/.apiSource.txt (No such file or directory)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at java.io.FileReader.<init>(FileReader.java:58)
+	at com.bmc.arsys.utils.ARFileHandler.readFromFile(ARFileHandler.java:589)
+	at com.bmc.arsys.utils.ARConfigPersistence.retrieveStoredKey(ARConfigPersistence.java:85)
+	at com.bmc.arsys.utils.ARMachineGUID.setMachineGuid(ARMachineGUID.java:43)
+	at com.bmc.arsys.apitransport.session.ArRpcCallContext.<clinit>(ArRpcCallContext.java:105)
+	at com.bmc.arsys.apitransport.session.ApiRpcClientStubBase.<init>(ApiRpcClientStubBase.java:58)
+	at com.bmc.arsys.api.session.ARRpcClientStub.<init>(ARRpcClientStub.java:45)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.bmc.arsys.apitransport.session.ApiRpcClientStubFactoryImpl.createARRpcClientStub(ApiRpcClientStubFactoryImpl.java:40)
+	at com.bmc.arsys.api.ProxyJRpc.getRpcClient(ProxyJRpc.java:111)
+	at com.bmc.arsys.api.ProxyJRpc.<init>(ProxyJRpc.java:68)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+	at com.bmc.arsys.apitransport.connection.ApiProxyFactory.createProxyInstance(ApiProxyFactory.java:91)
+	at com.bmc.arsys.apitransport.connection.ApiProxyFactory.createProxy(ApiProxyFactory.java:162)
+	at com.bmc.arsys.api.ProxyManager.createProxy(ProxyManager.java:602)
+	at com.bmc.arsys.api.ProxyPool.createProxy(ProxyPool.java:106)
+	at com.bmc.arsys.apitransport.connection.ApiProxyPool.createAProxy(ApiProxyPool.java:253)
+	at com.bmc.arsys.apitransport.connection.ApiProxyPool.get(ApiProxyPool.java:204)
+	at com.bmc.arsys.apitransport.connection.ApiProxyManager.getProxy(ApiProxyManager.java:210)
+	at com.bmc.arsys.api.PoolingProxyManager.getProxy(PoolingProxyManager.java:93)
+	at com.bmc.arsys.apitransport.connection.ApiProxyManager.getProxy(ApiProxyManager.java:164)
+	at com.bmc.arsys.api.ARServerUser.verifyUser(ARServerUser.java:1086)
+	at com.bmc.mii.remedy.RemedyConnection.connectToRemedy(RemedyConnection.java:30)
+	at com.bmc.mii.opentext.controller.OpentextController.sendWOtoOpentext(OpentextController.java:52)
+	at com.bmc.mii.controller.ConnectionTesting.getConnectionResult(ConnectionTesting.java:36)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:133)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:97)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:967)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:901)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:861)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:624)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:731)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:303)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:241)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:208)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:219)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:110)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:506)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:169)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:103)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:962)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:116)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:445)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1115)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:637)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:316)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2017-12-16 11:42:08.0748 com.bmc.arsys.arencrypt.ARFips – fipsProviderJsafeJCE installed = false
+2017-12-16 11:42:19.0306 com.bmc.arsys.apitransport.connection.ApiProxyManager – set timer period 60000 milliSec (00:01:00)
+2017-12-16 11:42:19.0348 com.bmc.arsys.apitransport.connection.ApiProxyFactory – Connects to 10.88.110.41:55000 through com.bmc.arsys.api.ProxyJRpc@6d117c38
+2017-12-16 11:42:19.0357 RemedyConnection:  – Connected to BMC Remedy successfully, server address:10.88.110.41
+2017-12-16 11:42:19.0358 RemedySRTAPI:  – SchemaName:SMART:OpentextIntegration
+2017-12-16 11:42:19.0702 SOAPGenerator:  – WONumber: WO0000000024377
+2017-12-16 11:42:19.0755 SOAPGenerator:  – Generated SOAPMessage:
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:smart-tbk.com:Remedy:SAPIntegration"><SOAP-ENV:Header/><SOAP-ENV:Body><urn:MT_RemedyWOReq><WONumber>WO0000000024377</WONumber><SRTFormName>Perform Fixed Asset Transfer</SRTFormName><DetailRequest>Perform Fixed Asset Transfer
+===========================================
+Requestor: Didik Wijanarko
+
+SENDER:
+PT: PT SMART Tbk - Downstream
+Company Code: 3300
+Business Area: 3300 - PT SMART Tbk - Downstream
+Business Unit/PCA: R124
+Cost Center: R124FJC - FILLING JERRYCAN
+
+ASSET INFORMATION
+Request for Single Asset?: No
+Type of Asset: Machinery &amp; Equipment of Plant &amp; Bulking (excl. Power Plant &amp; Utilities)
+Asset Location: 
+SAP Asset Number: 
+Related to Internal Order?: 
+ Internal Order Number: 
+Total Number of Internal Order: 47
+Related to Equipment Number (PM Module)?: 
+Equipment Number (PM Module): 
+Total Number of Equipment Number (PM Module): 
+Acquisition Value (IDR): 16.531.329.346
+Tax Facility: Non Bonded Zone
+Already Obtain Approval from Custom?: 
+Business Reason: Per 1 Januari 2018 const center R124FJC di split menjadi 3 nomer Asset baru yaitu : R124FBI, R124FJC16, R124FJC6.
+Split asset / mutasi asset ke Cost Centre baru dilakukan setelah Run Depre Dec 2017
+
+RECEIVER
+Asset Transfer Type: Between Cost Center
+Business Unit/PCA: 
+Cost Center: R124FJC16
+
+SUPPORTING DOCUMENTS
+Is List of Internal Order Already Attached?: Yes
+Is Equipment Number Already Attached?: Yes
+Notes: - Standard Form Perform Fixed Asset Transfer
+- Berita Acara Opname Asset R124FJC per tgl. 30 Juni 2017
+</DetailRequest><ActionType>CREATE</ActionType><TargetSystem>DWS</TargetSystem><isBase64>T</isBase64><RequestDate>2017-12-16T11:06:58.000+07:00</RequestDate><Function>R2R</Function><SRTLink>http://remedy-dev.smart-tbk.com:8080/ux/smart-it/#/search/WO0000000024377</SRTLink><RequestID>REQ000000020196</RequestID><SupportGroup>Fixed Asset &amp; Project Accounting Processor (SMART + SBE)</SupportGroup><SupportGroupTL>Fixed Asset &amp; Project Accounting Processor (SMART + SBE)</SupportGroupTL></urn:MT_RemedyWOReq></SOAP-ENV:Body></SOAP-ENV:Envelope>
+2017-12-16 11:42:19.0789 SOAPGenerator:  – SOAPException Error on callOpentextSOAP: com.sun.xml.internal.messaging.saaj.SOAPExceptionImpl: com.sun.xml.internal.messaging.saaj.SOAPExceptionImpl: Message send failed
+2017-12-16 11:42:50.0428 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 11:43:50.0427 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 11:44:50.0426 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 11:45:50.0427 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 11:46:50.0427 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 11:47:50.0429 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 11:48:50.0426 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 11:49:50.0426 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 11:50:50.0425 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 11:51:50.0427 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 11:52:50.0424 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 11:53:50.0423 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 11:54:50.0424 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 11:55:50.0426 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 11:56:50.0423 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 11:57:50.0423 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 12:02:09.0284 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 12:03:09.0280 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 12:04:09.0275 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 12:05:09.0279 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 12:06:09.0280 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 12:07:09.0280 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 12:08:09.0280 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 12:09:09.0279 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 12:10:09.0277 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 12:11:09.0277 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 12:12:09.0279 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 12:13:09.0278 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 12:14:09.0275 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 12:14:22.0716 RemedyConnection:  – Connected to BMC Remedy successfully, server address:10.88.110.41
+2017-12-16 12:14:22.0717 RemedySRTAPI:  – SchemaName:SMART:OpentextIntegration
+2017-12-16 12:14:22.0911 SOAPGenerator:  – WONumber: WO0000000024377
+2017-12-16 12:14:22.0913 SOAPGenerator:  – Generated SOAPMessage:
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:smart-tbk.com:Remedy:SAPIntegration"><SOAP-ENV:Header/><SOAP-ENV:Body><urn:MT_RemedyWOReq><WONumber>WO0000000024377</WONumber><SRTFormName>Perform Fixed Asset Transfer</SRTFormName><DetailRequest>Perform Fixed Asset Transfer
+===========================================
+Requestor: Didik Wijanarko
+
+SENDER:
+PT: PT SMART Tbk - Downstream
+Company Code: 3300
+Business Area: 3300 - PT SMART Tbk - Downstream
+Business Unit/PCA: R124
+Cost Center: R124FJC - FILLING JERRYCAN
+
+ASSET INFORMATION
+Request for Single Asset?: No
+Type of Asset: Machinery &amp; Equipment of Plant &amp; Bulking (excl. Power Plant &amp; Utilities)
+Asset Location: 
+SAP Asset Number: 
+Related to Internal Order?: 
+ Internal Order Number: 
+Total Number of Internal Order: 47
+Related to Equipment Number (PM Module)?: 
+Equipment Number (PM Module): 
+Total Number of Equipment Number (PM Module): 
+Acquisition Value (IDR): 16.531.329.346
+Tax Facility: Non Bonded Zone
+Already Obtain Approval from Custom?: 
+Business Reason: Per 1 Januari 2018 const center R124FJC di split menjadi 3 nomer Asset baru yaitu : R124FBI, R124FJC16, R124FJC6.
+Split asset / mutasi asset ke Cost Centre baru dilakukan setelah Run Depre Dec 2017
+
+RECEIVER
+Asset Transfer Type: Between Cost Center
+Business Unit/PCA: 
+Cost Center: R124FJC16
+
+SUPPORTING DOCUMENTS
+Is List of Internal Order Already Attached?: Yes
+Is Equipment Number Already Attached?: Yes
+Notes: - Standard Form Perform Fixed Asset Transfer
+- Berita Acara Opname Asset R124FJC per tgl. 30 Juni 2017
+</DetailRequest><ActionType>CREATE</ActionType><TargetSystem>DWS</TargetSystem><isBase64>T</isBase64><RequestDate>2017-12-16T11:06:58.000+07:00</RequestDate><Function>R2R</Function><SRTLink>http://remedy-dev.smart-tbk.com:8080/ux/smart-it/#/search/WO0000000024377</SRTLink><RequestID>REQ000000020196</RequestID><SupportGroup>Fixed Asset &amp; Project Accounting Processor (SMART + SBE)</SupportGroup><SupportGroupTL>Fixed Asset &amp; Project Accounting Processor (SMART + SBE)</SupportGroupTL></urn:MT_RemedyWOReq></SOAP-ENV:Body></SOAP-ENV:Envelope>
+2017-12-16 12:15:09.0274 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 12:15:38.0019 SOAPGenerator:  – SOAPException Error on callOpentextSOAP: com.sun.xml.internal.messaging.saaj.SOAPExceptionImpl: com.sun.xml.internal.messaging.saaj.SOAPExceptionImpl: Message send failed
+2017-12-16 12:16:09.0278 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 12:17:09.0277 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 12:18:09.0278 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 12:19:09.0276 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 12:19:15.0373 org.hibernate.validator.internal.util.Version – HV000001: Hibernate Validator 5.3.6.Final
+2017-12-16 12:19:17.0346 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 12:19:25.0517 com.bmc.arsys.apitransport.ApiConfig – jrpcMode: true
+2017-12-16 12:19:25.0520 com.bmc.arsys.api.Config – jniLoadMode: 1
+2017-12-16 12:19:25.0520 com.bmc.arsys.api.Config – apiRecordingMode: 0
+2017-12-16 12:19:25.0520 com.bmc.arsys.api.Config – apiRecordingLogDir: 
+2017-12-16 12:19:25.0520 com.bmc.arsys.api.Config – useConnectionPooling: true
+2017-12-16 12:19:25.0520 com.bmc.arsys.api.Config – maxProxiesPerServer: 80
+2017-12-16 12:19:25.0520 com.bmc.arsys.api.Config – idleConnectionsPerServer: 5
+2017-12-16 12:19:25.0520 com.bmc.arsys.api.Config – connectionTimeout: 0
+2017-12-16 12:19:25.0520 com.bmc.arsys.api.Config – connectionLifespan: 0
+2017-12-16 12:19:25.0521 com.bmc.arsys.api.Config – timeUnit: MINUTES
+2017-12-16 12:19:25.0521 com.bmc.arsys.api.Config – minimumSupportedServerRpcVersion: 12
+2017-12-16 12:19:25.0521 com.bmc.arsys.api.Config – connectionMaxRetries: 1
+2017-12-16 12:19:25.0521 com.bmc.arsys.api.Config – timeLagBetweenRetriesMillSec: 100
+2017-12-16 12:19:25.0521 com.bmc.arsys.api.Config – stringizeFieldAssignments: false
+2017-12-16 12:19:25.0521 com.bmc.arsys.api.Config – stringizeSetIfQualification: false
+2017-12-16 12:19:25.0521 com.bmc.arsys.api.Config – useLegacyQualParser: false
+2017-12-16 12:19:25.0521 com.bmc.arsys.api.Config – useLegacyAssignParser: false
+2017-12-16 12:19:25.0521 com.bmc.arsys.api.Config – useLegacyQualFormatter: false
+2017-12-16 12:19:25.0522 com.bmc.arsys.api.Config – useLegacyAssignFormatter: false
+2017-12-16 12:19:25.0524 com.bmc.arsys.api.ARServerUser – APITIMEOUT from system property : null
+2017-12-16 12:19:25.0524 com.bmc.arsys.api.ARServerUser – APITIMEOUT from Environment : null
+2017-12-16 12:19:25.0524 com.bmc.arsys.api.ARServerUser – AROVERLAYGROUPS from system property : null
+2017-12-16 12:19:25.0524 com.bmc.arsys.api.ARServerUser – AROVERLAYGROUPS from Environment : null
+2017-12-16 12:19:26.0033 com.bmc.arsys.arencrypt.ARFips – fipsProviderJsafeJCE installed = false
+2017-12-16 12:19:36.0393 com.bmc.arsys.apitransport.connection.ApiProxyManager – set timer period 60000 milliSec (00:01:00)
+2017-12-16 12:19:36.0433 com.bmc.arsys.apitransport.connection.ApiProxyFactory – Connects to 10.88.110.41:55000 through com.bmc.arsys.api.ProxyJRpc@7f0bc4a7
+2017-12-16 12:19:36.0441 RemedyConnection:  – Connected to BMC Remedy successfully, server address:10.88.110.41
+2017-12-16 12:19:36.0442 RemedySRTAPI:  – SchemaName:SMART:OpentextIntegration
+2017-12-16 12:19:36.0706 SOAPGenerator:  – WONumber: WO0000000024377
+2017-12-16 12:19:36.0712 SOAPGenerator:  – Generated SOAPMessage:
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:smart-tbk.com:Remedy:SAPIntegration"><SOAP-ENV:Header/><SOAP-ENV:Body><urn:MT_RemedyWOReq><WONumber>WO0000000024377</WONumber><SRTFormName>Perform Fixed Asset Transfer</SRTFormName><DetailRequest>Perform Fixed Asset Transfer
+===========================================
+Requestor: Didik Wijanarko
+
+SENDER:
+PT: PT SMART Tbk - Downstream
+Company Code: 3300
+Business Area: 3300 - PT SMART Tbk - Downstream
+Business Unit/PCA: R124
+Cost Center: R124FJC - FILLING JERRYCAN
+
+ASSET INFORMATION
+Request for Single Asset?: No
+Type of Asset: Machinery &amp; Equipment of Plant &amp; Bulking (excl. Power Plant &amp; Utilities)
+Asset Location: 
+SAP Asset Number: 
+Related to Internal Order?: 
+ Internal Order Number: 
+Total Number of Internal Order: 47
+Related to Equipment Number (PM Module)?: 
+Equipment Number (PM Module): 
+Total Number of Equipment Number (PM Module): 
+Acquisition Value (IDR): 16.531.329.346
+Tax Facility: Non Bonded Zone
+Already Obtain Approval from Custom?: 
+Business Reason: Per 1 Januari 2018 const center R124FJC di split menjadi 3 nomer Asset baru yaitu : R124FBI, R124FJC16, R124FJC6.
+Split asset / mutasi asset ke Cost Centre baru dilakukan setelah Run Depre Dec 2017
+
+RECEIVER
+Asset Transfer Type: Between Cost Center
+Business Unit/PCA: 
+Cost Center: R124FJC16
+
+SUPPORTING DOCUMENTS
+Is List of Internal Order Already Attached?: Yes
+Is Equipment Number Already Attached?: Yes
+Notes: - Standard Form Perform Fixed Asset Transfer
+- Berita Acara Opname Asset R124FJC per tgl. 30 Juni 2017
+</DetailRequest><ActionType>CREATE</ActionType><TargetSystem>DWS</TargetSystem><isBase64>T</isBase64><RequestDate>2017-12-16T11:06:58.000+07:00</RequestDate><Function>R2R</Function><SRTLink>http://remedy-dev.smart-tbk.com:8080/ux/smart-it/#/search/WO0000000024377</SRTLink><RequestID>REQ000000020196</RequestID><SupportGroup>Fixed Asset &amp; Project Accounting Processor (SMART + SBE)</SupportGroup><SupportGroupTL>Fixed Asset &amp; Project Accounting Processor (SMART + SBE)</SupportGroupTL></urn:MT_RemedyWOReq></SOAP-ENV:Body></SOAP-ENV:Envelope>
+2017-12-16 12:19:36.0718 SOAPGenerator:  – SOAPException Error on callOpentextSOAP: com.sun.xml.internal.messaging.saaj.SOAPExceptionImpl: Message send failed
+2017-12-16 12:20:17.0346 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 12:21:17.0346 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 12:22:17.0348 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 12:23:17.0346 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 12:24:17.0346 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 12:25:17.0345 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 12:26:17.0346 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 12:27:17.0348 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 12:28:17.0347 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 12:29:17.0347 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 12:30:12.0727 org.hibernate.validator.internal.util.Version – HV000001: Hibernate Validator 5.3.6.Final
+2017-12-16 12:30:14.0782 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 12:30:38.0680 com.bmc.arsys.apitransport.ApiConfig – jrpcMode: true
+2017-12-16 12:30:38.0682 com.bmc.arsys.api.Config – jniLoadMode: 1
+2017-12-16 12:30:38.0682 com.bmc.arsys.api.Config – apiRecordingMode: 0
+2017-12-16 12:30:38.0682 com.bmc.arsys.api.Config – apiRecordingLogDir: 
+2017-12-16 12:30:38.0682 com.bmc.arsys.api.Config – useConnectionPooling: true
+2017-12-16 12:30:38.0682 com.bmc.arsys.api.Config – maxProxiesPerServer: 80
+2017-12-16 12:30:38.0682 com.bmc.arsys.api.Config – idleConnectionsPerServer: 5
+2017-12-16 12:30:38.0682 com.bmc.arsys.api.Config – connectionTimeout: 0
+2017-12-16 12:30:38.0683 com.bmc.arsys.api.Config – connectionLifespan: 0
+2017-12-16 12:30:38.0683 com.bmc.arsys.api.Config – timeUnit: MINUTES
+2017-12-16 12:30:38.0683 com.bmc.arsys.api.Config – minimumSupportedServerRpcVersion: 12
+2017-12-16 12:30:38.0683 com.bmc.arsys.api.Config – connectionMaxRetries: 1
+2017-12-16 12:30:38.0683 com.bmc.arsys.api.Config – timeLagBetweenRetriesMillSec: 100
+2017-12-16 12:30:38.0683 com.bmc.arsys.api.Config – stringizeFieldAssignments: false
+2017-12-16 12:30:38.0683 com.bmc.arsys.api.Config – stringizeSetIfQualification: false
+2017-12-16 12:30:38.0683 com.bmc.arsys.api.Config – useLegacyQualParser: false
+2017-12-16 12:30:38.0683 com.bmc.arsys.api.Config – useLegacyAssignParser: false
+2017-12-16 12:30:38.0683 com.bmc.arsys.api.Config – useLegacyQualFormatter: false
+2017-12-16 12:30:38.0683 com.bmc.arsys.api.Config – useLegacyAssignFormatter: false
+2017-12-16 12:30:38.0685 com.bmc.arsys.api.ARServerUser – APITIMEOUT from system property : null
+2017-12-16 12:30:38.0685 com.bmc.arsys.api.ARServerUser – APITIMEOUT from Environment : null
+2017-12-16 12:30:38.0685 com.bmc.arsys.api.ARServerUser – AROVERLAYGROUPS from system property : null
+2017-12-16 12:30:38.0685 com.bmc.arsys.api.ARServerUser – AROVERLAYGROUPS from Environment : null
+2017-12-16 12:30:39.0207 com.bmc.arsys.arencrypt.ARFips – fipsProviderJsafeJCE installed = false
+2017-12-16 12:30:49.0275 com.bmc.arsys.apitransport.connection.ApiProxyManager – set timer period 60000 milliSec (00:01:00)
+2017-12-16 12:30:49.0316 com.bmc.arsys.apitransport.connection.ApiProxyFactory – Connects to 10.88.110.41:55000 through com.bmc.arsys.api.ProxyJRpc@5f56127b
+2017-12-16 12:30:49.0324 RemedyConnection:  – Connected to BMC Remedy successfully, server address:10.88.110.41
+2017-12-16 12:30:49.0326 RemedySRTAPI:  – SchemaName:SMART:OpentextIntegration
+2017-12-16 12:30:49.0572 SOAPGenerator:  – WONumber: WO0000000024377
+2017-12-16 12:30:49.0579 SOAPGenerator:  – Generated SOAPMessage:
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:smart-tbk.com:Remedy:SAPIntegration"><SOAP-ENV:Header/><SOAP-ENV:Body><urn:MT_RemedyWOReq><WONumber>WO0000000024377</WONumber><SRTFormName>Perform Fixed Asset Transfer</SRTFormName><DetailRequest>Perform Fixed Asset Transfer
+===========================================
+Requestor: Didik Wijanarko
+
+SENDER:
+PT: PT SMART Tbk - Downstream
+Company Code: 3300
+Business Area: 3300 - PT SMART Tbk - Downstream
+Business Unit/PCA: R124
+Cost Center: R124FJC - FILLING JERRYCAN
+
+ASSET INFORMATION
+Request for Single Asset?: No
+Type of Asset: Machinery &amp; Equipment of Plant &amp; Bulking (excl. Power Plant &amp; Utilities)
+Asset Location: 
+SAP Asset Number: 
+Related to Internal Order?: 
+ Internal Order Number: 
+Total Number of Internal Order: 47
+Related to Equipment Number (PM Module)?: 
+Equipment Number (PM Module): 
+Total Number of Equipment Number (PM Module): 
+Acquisition Value (IDR): 16.531.329.346
+Tax Facility: Non Bonded Zone
+Already Obtain Approval from Custom?: 
+Business Reason: Per 1 Januari 2018 const center R124FJC di split menjadi 3 nomer Asset baru yaitu : R124FBI, R124FJC16, R124FJC6.
+Split asset / mutasi asset ke Cost Centre baru dilakukan setelah Run Depre Dec 2017
+
+RECEIVER
+Asset Transfer Type: Between Cost Center
+Business Unit/PCA: 
+Cost Center: R124FJC16
+
+SUPPORTING DOCUMENTS
+Is List of Internal Order Already Attached?: Yes
+Is Equipment Number Already Attached?: Yes
+Notes: - Standard Form Perform Fixed Asset Transfer
+- Berita Acara Opname Asset R124FJC per tgl. 30 Juni 2017
+</DetailRequest><ActionType>CREATE</ActionType><TargetSystem>DWS</TargetSystem><isBase64>T</isBase64><RequestDate>2017-12-16T11:06:58.000+07:00</RequestDate><Function>R2R</Function><SRTLink>http://remedy-dev.smart-tbk.com:8080/ux/smart-it/#/search/WO0000000024377</SRTLink><RequestID>REQ000000020196</RequestID><SupportGroup>Fixed Asset &amp; Project Accounting Processor (SMART + SBE)</SupportGroup><SupportGroupTL>Fixed Asset &amp; Project Accounting Processor (SMART + SBE)</SupportGroupTL></urn:MT_RemedyWOReq></SOAP-ENV:Body></SOAP-ENV:Envelope>
+2017-12-16 12:30:49.0584 SOAPGenerator:  – SOAPException Error on callOpentextSOAP: java.net.ConnectException: Connection refused (Connection refused)
+2017-12-16 12:31:14.0783 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 12:32:14.0784 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 12:33:14.0783 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 12:35:40.0322 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 12:36:40.0326 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 12:37:40.0324 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 12:38:40.0325 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 12:39:40.0327 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 14:32:27.0363 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 14:33:27.0363 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 14:34:27.0362 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 14:35:27.0366 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 14:36:27.0367 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 14:37:27.0367 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 14:38:27.0365 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 14:39:27.0370 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 14:40:27.0371 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 14:41:27.0370 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 14:42:27.0368 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 14:43:27.0372 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 14:44:27.0375 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 14:45:27.0374 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 14:46:27.0374 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 14:47:27.0375 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 14:48:27.0376 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 14:49:27.0378 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 14:50:27.0379 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 14:51:27.0381 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 14:52:27.0382 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 14:53:27.0384 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 14:54:27.0385 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 14:55:27.0385 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 14:56:27.0390 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 14:57:27.0390 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 14:58:27.0391 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 14:59:27.0396 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 15:00:27.0397 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 15:01:27.0396 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 15:02:27.0395 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 15:03:27.0401 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 15:04:27.0403 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 15:05:27.0403 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 15:06:27.0407 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 15:07:27.0409 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 15:08:27.0411 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 15:09:27.0410 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 15:10:27.0415 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 15:11:51.0322 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 15:12:51.0324 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 15:13:51.0327 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 15:14:51.0331 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 15:15:51.0332 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 15:16:51.0334 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 15:17:51.0334 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 15:18:51.0337 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 15:19:51.0334 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 15:20:51.0340 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 15:21:51.0338 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 15:22:51.0343 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 15:23:51.0340 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 15:24:51.0346 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 15:25:51.0348 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 15:26:51.0348 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 15:27:51.0346 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 15:28:51.0352 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 15:29:51.0351 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 15:30:51.0356 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 15:31:51.0353 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 15:32:51.0355 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 15:33:19.0711 org.hibernate.validator.internal.util.Version – HV000001: Hibernate Validator 5.3.6.Final
+2017-12-16 15:33:21.0568 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 15:33:30.0611 com.bmc.arsys.apitransport.ApiConfig – jrpcMode: true
+2017-12-16 15:33:30.0612 com.bmc.arsys.api.Config – jniLoadMode: 1
+2017-12-16 15:33:30.0613 com.bmc.arsys.api.Config – apiRecordingMode: 0
+2017-12-16 15:33:30.0613 com.bmc.arsys.api.Config – apiRecordingLogDir: 
+2017-12-16 15:33:30.0613 com.bmc.arsys.api.Config – useConnectionPooling: true
+2017-12-16 15:33:30.0613 com.bmc.arsys.api.Config – maxProxiesPerServer: 80
+2017-12-16 15:33:30.0613 com.bmc.arsys.api.Config – idleConnectionsPerServer: 5
+2017-12-16 15:33:30.0613 com.bmc.arsys.api.Config – connectionTimeout: 0
+2017-12-16 15:33:30.0613 com.bmc.arsys.api.Config – connectionLifespan: 0
+2017-12-16 15:33:30.0613 com.bmc.arsys.api.Config – timeUnit: MINUTES
+2017-12-16 15:33:30.0613 com.bmc.arsys.api.Config – minimumSupportedServerRpcVersion: 12
+2017-12-16 15:33:30.0613 com.bmc.arsys.api.Config – connectionMaxRetries: 1
+2017-12-16 15:33:30.0613 com.bmc.arsys.api.Config – timeLagBetweenRetriesMillSec: 100
+2017-12-16 15:33:30.0613 com.bmc.arsys.api.Config – stringizeFieldAssignments: false
+2017-12-16 15:33:30.0613 com.bmc.arsys.api.Config – stringizeSetIfQualification: false
+2017-12-16 15:33:30.0613 com.bmc.arsys.api.Config – useLegacyQualParser: false
+2017-12-16 15:33:30.0613 com.bmc.arsys.api.Config – useLegacyAssignParser: false
+2017-12-16 15:33:30.0613 com.bmc.arsys.api.Config – useLegacyQualFormatter: false
+2017-12-16 15:33:30.0613 com.bmc.arsys.api.Config – useLegacyAssignFormatter: false
+2017-12-16 15:33:30.0615 com.bmc.arsys.api.ARServerUser – APITIMEOUT from system property : null
+2017-12-16 15:33:30.0615 com.bmc.arsys.api.ARServerUser – APITIMEOUT from Environment : null
+2017-12-16 15:33:30.0615 com.bmc.arsys.api.ARServerUser – AROVERLAYGROUPS from system property : null
+2017-12-16 15:33:30.0615 com.bmc.arsys.api.ARServerUser – AROVERLAYGROUPS from Environment : null
+2017-12-16 15:33:31.0064 com.bmc.arsys.arencrypt.ARFips – fipsProviderJsafeJCE installed = false
+2017-12-16 15:33:41.0485 com.bmc.arsys.apitransport.connection.ApiProxyManager – set timer period 60000 milliSec (00:01:00)
+2017-12-16 15:33:41.0519 com.bmc.arsys.apitransport.connection.ApiProxyFactory – Connects to 10.88.110.41:55000 through com.bmc.arsys.api.ProxyJRpc@4e33ca1c
+2017-12-16 15:33:41.0527 RemedyConnection:  – Connected to BMC Remedy successfully, server address:10.88.110.41
+2017-12-16 15:33:41.0528 RemedySRTAPI:  – SchemaName:SMART:OpentextIntegration
+2017-12-16 15:33:41.0773 SOAPGenerator:  – WONumber: WO0000000024377
+2017-12-16 15:33:41.0781 SOAPGenerator:  – Generated SOAPMessage:
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:smart-tbk.com:Remedy:SAPIntegration"><SOAP-ENV:Header/><SOAP-ENV:Body><urn:MT_RemedyWOReq><WONumber>WO0000000024377</WONumber><SRTFormName>Perform Fixed Asset Transfer</SRTFormName><DetailRequest>Perform Fixed Asset Transfer
+===========================================
+Requestor: Didik Wijanarko
+
+SENDER:
+PT: PT SMART Tbk - Downstream
+Company Code: 3300
+Business Area: 3300 - PT SMART Tbk - Downstream
+Business Unit/PCA: R124
+Cost Center: R124FJC - FILLING JERRYCAN
+
+ASSET INFORMATION
+Request for Single Asset?: No
+Type of Asset: Machinery &amp; Equipment of Plant &amp; Bulking (excl. Power Plant &amp; Utilities)
+Asset Location: 
+SAP Asset Number: 
+Related to Internal Order?: 
+ Internal Order Number: 
+Total Number of Internal Order: 47
+Related to Equipment Number (PM Module)?: 
+Equipment Number (PM Module): 
+Total Number of Equipment Number (PM Module): 
+Acquisition Value (IDR): 16.531.329.346
+Tax Facility: Non Bonded Zone
+Already Obtain Approval from Custom?: 
+Business Reason: Per 1 Januari 2018 const center R124FJC di split menjadi 3 nomer Asset baru yaitu : R124FBI, R124FJC16, R124FJC6.
+Split asset / mutasi asset ke Cost Centre baru dilakukan setelah Run Depre Dec 2017
+
+RECEIVER
+Asset Transfer Type: Between Cost Center
+Business Unit/PCA: 
+Cost Center: R124FJC16
+
+SUPPORTING DOCUMENTS
+Is List of Internal Order Already Attached?: Yes
+Is Equipment Number Already Attached?: Yes
+Notes: - Standard Form Perform Fixed Asset Transfer
+- Berita Acara Opname Asset R124FJC per tgl. 30 Juni 2017
+</DetailRequest><ActionType>CREATE</ActionType><TargetSystem>DWS</TargetSystem><isBase64>T</isBase64><RequestDate>2017-12-16T11:06:58.000+07:00</RequestDate><Function>R2R</Function><SRTLink>http://remedy-dev.smart-tbk.com:8080/ux/smart-it/#/search/WO0000000024377</SRTLink><RequestID>REQ000000020196</RequestID><SupportGroup>Fixed Asset &amp; Project Accounting Processor (SMART + SBE)</SupportGroup><SupportGroupTL>Fixed Asset &amp; Project Accounting Processor (SMART + SBE)</SupportGroupTL></urn:MT_RemedyWOReq></SOAP-ENV:Body></SOAP-ENV:Envelope>
+2017-12-16 15:33:41.0809 SOAPGenerator:  – Connection is down, http responde code: 401
+2017-12-16 15:33:41.0954 SOAPGenerator:  – SOAP Response: <SOAP:Envelope xmlns:SOAP='http://schemas.xmlsoap.org/soap/envelope/'><SOAP:Header/><SOAP:Body xmlns:urn='urn:smart-tbk.com:Remedy:SAPIntegration'><ns1:MT_RemedyWOReq_Response xmlns:ns1='urn:smart-tbk.com:Remedy:SAPIntegration'><STATUS>F</STATUS><ERRCODE>P09</ERRCODE><ERRMSG>Requestor is missing</ERRMSG></ns1:MT_RemedyWOReq_Response></SOAP:Body></SOAP:Envelope>
+2017-12-16 15:34:21.0574 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 15:35:21.0573 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 15:36:21.0578 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 15:37:21.0574 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 15:38:21.0577 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 15:39:21.0579 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 15:40:21.0584 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 15:41:21.0586 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 15:42:21.0587 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 15:43:21.0585 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 15:44:21.0589 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 15:45:21.0591 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 15:46:21.0589 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 15:47:21.0591 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 15:48:21.0597 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 15:49:21.0594 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 15:50:21.0596 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 15:51:21.0598 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 15:52:21.0603 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 15:53:21.0601 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 15:54:21.0606 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 15:55:21.0604 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 15:56:21.0609 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 15:57:21.0611 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 15:58:21.0613 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 15:59:21.0611 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 16:00:21.0617 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 16:01:21.0617 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 16:02:21.0675 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 16:03:21.0672 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 16:04:21.0675 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 16:05:21.0680 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 16:05:47.0365 RemedyConnection:  – Connected to BMC Remedy successfully, server address:10.88.110.41
+2017-12-16 16:05:47.0366 RemedySRTAPI:  – SchemaName:SMART:OpentextIntegration
+2017-12-16 16:05:47.0561 SOAPGenerator:  – WONumber: WO0000000024377
+2017-12-16 16:05:47.0563 SOAPGenerator:  – Generated SOAPMessage:
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:smart-tbk.com:Remedy:SAPIntegration"><SOAP-ENV:Header/><SOAP-ENV:Body><urn:MT_RemedyWOReq><WONumber>WO0000000024377</WONumber><SRTFormName>Perform Fixed Asset Transfer</SRTFormName><DetailRequest>Perform Fixed Asset Transfer
+===========================================
+Requester: Didik Wijanarko
+
+SENDER:
+PT: PT SMART Tbk - Downstream
+Company Code: 3300
+Business Area: 3300 - PT SMART Tbk - Downstream
+Business Unit/PCA: R124
+Cost Center: R124FJC - FILLING JERRYCAN
+
+ASSET INFORMATION
+Request for Single Asset?: No
+Type of Asset: Machinery &amp; Equipment of Plant &amp; Bulking (excl. Power Plant &amp; Utilities)
+Asset Location: 
+SAP Asset Number: 
+Related to Internal Order?: 
+ Internal Order Number: 
+Total Number of Internal Order: 47
+Related to Equipment Number (PM Module)?: 
+Equipment Number (PM Module): 
+Total Number of Equipment Number (PM Module): 
+Acquisition Value (IDR): 16.531.329.346
+Tax Facility: Non Bonded Zone
+Already Obtain Approval from Custom?: 
+Business Reason: Per 1 Januari 2018 const center R124FJC di split menjadi 3 nomer Asset baru yaitu : R124FBI, R124FJC16, R124FJC6.
+Split asset / mutasi asset ke Cost Centre baru dilakukan setelah Run Depre Dec 2017
+
+RECEIVER
+Asset Transfer Type: Between Cost Center
+Business Unit/PCA: 
+Cost Center: R124FJC16
+
+SUPPORTING DOCUMENTS
+Is List of Internal Order Already Attached?: Yes
+Is Equipment Number Already Attached?: Yes
+Notes: - Standard Form Perform Fixed Asset Transfer
+- Berita Acara Opname Asset R124FJC per tgl. 30 Juni 2017
+
+Email Requester: didik.wijanarko@sinarmas-agri.com</DetailRequest><ActionType>CREATE</ActionType><TargetSystem>DWS</TargetSystem><isBase64>T</isBase64><RequestDate>2017-12-16T11:06:58.000+07:00</RequestDate><Function>R2R</Function><SRTLink>http://remedy-dev.smart-tbk.com:8080/ux/smart-it/#/search/WO0000000024377</SRTLink><RequestID>REQ000000020196</RequestID><SupportGroup>Fixed Asset &amp; Project Accounting Processor (SMART + SBE)</SupportGroup><SupportGroupTL>Fixed Asset &amp; Project Accounting Processor (SMART + SBE)</SupportGroupTL></urn:MT_RemedyWOReq></SOAP-ENV:Body></SOAP-ENV:Envelope>
+2017-12-16 16:05:47.0572 SOAPGenerator:  – Connection is down, http responde code: 401
+2017-12-16 16:05:49.0723 SOAPGenerator:  – SOAP Response: <?xml version='1.0'?>
+<!-- see the documentation -->
+<SOAP:Envelope xmlns:SOAP='http://schemas.xmlsoap.org/soap/envelope/'>
+  <SOAP:Body>
+    <SOAP:Fault>
+      <faultcode>SOAP:Server</faultcode>
+      <faultstring>Server Error</faultstring>
+      <detail>
+        <s:SystemError xmlns:s='http://sap.com/xi/WebService/xi2.0'>
+          <context>XIAdapter</context>
+          <code>ADAPTER.JAVA_EXCEPTION</code>
+          <text><![CDATA[
+See log trace with id: n/a
+          ]]></text>
+        </s:SystemError>
+      </detail>
+    </SOAP:Fault>
+  </SOAP:Body>
+</SOAP:Envelope>
+
+2017-12-16 16:05:49.0738 OpentextController:  – ClassCastException Error on setWOResponse: java.lang.ClassCastException: com.sun.xml.internal.messaging.saaj.soap.impl.TextImpl cannot be cast to javax.xml.soap.SOAPElement
+2017-12-16 16:06:21.0677 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 16:07:21.0680 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 16:08:21.0686 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 16:09:21.0685 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 16:10:21.0688 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 16:11:21.0686 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 16:12:21.0692 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 16:13:21.0695 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 16:14:21.0695 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 16:15:21.0694 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 16:16:21.0700 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 16:17:21.0701 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 16:18:21.0700 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 16:19:21.0701 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 16:20:07.0419 org.hibernate.validator.internal.util.Version – HV000001: Hibernate Validator 5.3.6.Final
+2017-12-16 16:20:09.0293 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 16:20:29.0156 com.bmc.arsys.apitransport.ApiConfig – jrpcMode: true
+2017-12-16 16:20:29.0158 com.bmc.arsys.api.Config – jniLoadMode: 1
+2017-12-16 16:20:29.0158 com.bmc.arsys.api.Config – apiRecordingMode: 0
+2017-12-16 16:20:29.0158 com.bmc.arsys.api.Config – apiRecordingLogDir: 
+2017-12-16 16:20:29.0158 com.bmc.arsys.api.Config – useConnectionPooling: true
+2017-12-16 16:20:29.0158 com.bmc.arsys.api.Config – maxProxiesPerServer: 80
+2017-12-16 16:20:29.0158 com.bmc.arsys.api.Config – idleConnectionsPerServer: 5
+2017-12-16 16:20:29.0158 com.bmc.arsys.api.Config – connectionTimeout: 0
+2017-12-16 16:20:29.0158 com.bmc.arsys.api.Config – connectionLifespan: 0
+2017-12-16 16:20:29.0158 com.bmc.arsys.api.Config – timeUnit: MINUTES
+2017-12-16 16:20:29.0158 com.bmc.arsys.api.Config – minimumSupportedServerRpcVersion: 12
+2017-12-16 16:20:29.0158 com.bmc.arsys.api.Config – connectionMaxRetries: 1
+2017-12-16 16:20:29.0158 com.bmc.arsys.api.Config – timeLagBetweenRetriesMillSec: 100
+2017-12-16 16:20:29.0158 com.bmc.arsys.api.Config – stringizeFieldAssignments: false
+2017-12-16 16:20:29.0159 com.bmc.arsys.api.Config – stringizeSetIfQualification: false
+2017-12-16 16:20:29.0159 com.bmc.arsys.api.Config – useLegacyQualParser: false
+2017-12-16 16:20:29.0159 com.bmc.arsys.api.Config – useLegacyAssignParser: false
+2017-12-16 16:20:29.0159 com.bmc.arsys.api.Config – useLegacyQualFormatter: false
+2017-12-16 16:20:29.0159 com.bmc.arsys.api.Config – useLegacyAssignFormatter: false
+2017-12-16 16:20:29.0161 com.bmc.arsys.api.ARServerUser – APITIMEOUT from system property : null
+2017-12-16 16:20:29.0161 com.bmc.arsys.api.ARServerUser – APITIMEOUT from Environment : null
+2017-12-16 16:20:29.0161 com.bmc.arsys.api.ARServerUser – AROVERLAYGROUPS from system property : null
+2017-12-16 16:20:29.0161 com.bmc.arsys.api.ARServerUser – AROVERLAYGROUPS from Environment : null
+2017-12-16 16:20:29.0603 com.bmc.arsys.arencrypt.ARFips – fipsProviderJsafeJCE installed = false
+2017-12-16 16:20:39.0667 com.bmc.arsys.apitransport.connection.ApiProxyManager – set timer period 60000 milliSec (00:01:00)
+2017-12-16 16:20:39.0713 com.bmc.arsys.apitransport.connection.ApiProxyFactory – Connects to 10.88.110.41:55000 through com.bmc.arsys.api.ProxyJRpc@5111d227
+2017-12-16 16:20:39.0722 RemedyConnection:  – Connected to BMC Remedy successfully, server address:10.88.110.41
+2017-12-16 16:20:39.0723 RemedySRTAPI:  – SchemaName:SMART:OpentextIntegration
+2017-12-16 16:20:39.0962 SOAPGenerator:  – WONumber: WO0000000024377
+2017-12-16 16:20:39.0970 SOAPGenerator:  – Generated SOAPMessage:
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:smart-tbk.com:Remedy:SAPIntegration"><SOAP-ENV:Header/><SOAP-ENV:Body><urn:MT_RemedyWOReq><WONumber>WO0000000024377</WONumber><SRTFormName>Perform Fixed Asset Transfer</SRTFormName><DetailRequest>Perform Fixed Asset Transfer
+===========================================
+Requester: Didik Wijanarko
+
+SENDER:
+PT: PT SMART Tbk - Downstream
+Company Code: 3300
+Business Area: 3300 - PT SMART Tbk - Downstream
+Business Unit/PCA: R124
+Cost Center: R124FJC - FILLING JERRYCAN
+
+ASSET INFORMATION
+Request for Single Asset?: No
+Type of Asset: Machinery &amp; Equipment of Plant &amp; Bulking (excl. Power Plant &amp; Utilities)
+Asset Location: 
+SAP Asset Number: 
+Related to Internal Order?: 
+ Internal Order Number: 
+Total Number of Internal Order: 47
+Related to Equipment Number (PM Module)?: 
+Equipment Number (PM Module): 
+Total Number of Equipment Number (PM Module): 
+Acquisition Value (IDR): 16.531.329.346
+Tax Facility: Non Bonded Zone
+Already Obtain Approval from Custom?: 
+Business Reason: Per 1 Januari 2018 const center R124FJC di split menjadi 3 nomer Asset baru yaitu : R124FBI, R124FJC16, R124FJC6.
+Split asset / mutasi asset ke Cost Centre baru dilakukan setelah Run Depre Dec 2017
+
+RECEIVER
+Asset Transfer Type: Between Cost Center
+Business Unit/PCA: 
+Cost Center: R124FJC16
+
+SUPPORTING DOCUMENTS
+Is List of Internal Order Already Attached?: Yes
+Is Equipment Number Already Attached?: Yes
+Notes: - Standard Form Perform Fixed Asset Transfer
+- Berita Acara Opname Asset R124FJC per tgl. 30 Juni 2017
+
+Email Requester: didik.wijanarko@sinarmas-agri.com
+ Email Requester:didik.wijanarko@sinarmas-agri.com</DetailRequest><ActionType>CREATE</ActionType><TargetSystem>DWS</TargetSystem><isBase64>T</isBase64><RequestDate>2017-12-16T11:06:58.000+07:00</RequestDate><Function>R2R</Function><SRTLink>http://remedy-dev.smart-tbk.com:8080/ux/smart-it/#/search/WO0000000024377</SRTLink><RequestID>REQ000000020196</RequestID><SupportGroup>Fixed Asset &amp; Project Accounting Processor (SMART + SBE)</SupportGroup><SupportGroupTL>Fixed Asset &amp; Project Accounting Processor (SMART + SBE)</SupportGroupTL></urn:MT_RemedyWOReq></SOAP-ENV:Body></SOAP-ENV:Envelope>
+2017-12-16 16:20:39.0979 SOAPGenerator:  – Connection is down, http responde code: 401
+2017-12-16 16:20:41.0814 SOAPGenerator:  – SOAP Response: <?xml version='1.0'?>
+<!-- see the documentation -->
+<SOAP:Envelope xmlns:SOAP='http://schemas.xmlsoap.org/soap/envelope/'>
+  <SOAP:Body>
+    <SOAP:Fault>
+      <faultcode>SOAP:Server</faultcode>
+      <faultstring>Server Error</faultstring>
+      <detail>
+        <s:SystemError xmlns:s='http://sap.com/xi/WebService/xi2.0'>
+          <context>XIAdapter</context>
+          <code>ADAPTER.JAVA_EXCEPTION</code>
+          <text><![CDATA[
+See log trace with id: n/a
+          ]]></text>
+        </s:SystemError>
+      </detail>
+    </SOAP:Fault>
+  </SOAP:Body>
+</SOAP:Envelope>
+
+2017-12-16 16:20:41.0818 OpentextController:  – ClassCastException Error on setWOResponse: java.lang.ClassCastException: com.sun.xml.internal.messaging.saaj.soap.impl.TextImpl cannot be cast to javax.xml.soap.SOAPElement
+2017-12-16 16:21:09.0296 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 16:22:09.0296 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 16:22:37.0845 org.hibernate.validator.internal.util.Version – HV000001: Hibernate Validator 5.3.6.Final
+2017-12-16 16:22:39.0756 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 16:23:07.0394 com.bmc.arsys.apitransport.ApiConfig – jrpcMode: true
+2017-12-16 16:23:07.0395 com.bmc.arsys.api.Config – jniLoadMode: 1
+2017-12-16 16:23:07.0395 com.bmc.arsys.api.Config – apiRecordingMode: 0
+2017-12-16 16:23:07.0395 com.bmc.arsys.api.Config – apiRecordingLogDir: 
+2017-12-16 16:23:07.0395 com.bmc.arsys.api.Config – useConnectionPooling: true
+2017-12-16 16:23:07.0395 com.bmc.arsys.api.Config – maxProxiesPerServer: 80
+2017-12-16 16:23:07.0395 com.bmc.arsys.api.Config – idleConnectionsPerServer: 5
+2017-12-16 16:23:07.0396 com.bmc.arsys.api.Config – connectionTimeout: 0
+2017-12-16 16:23:07.0396 com.bmc.arsys.api.Config – connectionLifespan: 0
+2017-12-16 16:23:07.0396 com.bmc.arsys.api.Config – timeUnit: MINUTES
+2017-12-16 16:23:07.0396 com.bmc.arsys.api.Config – minimumSupportedServerRpcVersion: 12
+2017-12-16 16:23:07.0396 com.bmc.arsys.api.Config – connectionMaxRetries: 1
+2017-12-16 16:23:07.0396 com.bmc.arsys.api.Config – timeLagBetweenRetriesMillSec: 100
+2017-12-16 16:23:07.0396 com.bmc.arsys.api.Config – stringizeFieldAssignments: false
+2017-12-16 16:23:07.0396 com.bmc.arsys.api.Config – stringizeSetIfQualification: false
+2017-12-16 16:23:07.0396 com.bmc.arsys.api.Config – useLegacyQualParser: false
+2017-12-16 16:23:07.0396 com.bmc.arsys.api.Config – useLegacyAssignParser: false
+2017-12-16 16:23:07.0396 com.bmc.arsys.api.Config – useLegacyQualFormatter: false
+2017-12-16 16:23:07.0396 com.bmc.arsys.api.Config – useLegacyAssignFormatter: false
+2017-12-16 16:23:07.0397 com.bmc.arsys.api.ARServerUser – APITIMEOUT from system property : null
+2017-12-16 16:23:07.0398 com.bmc.arsys.api.ARServerUser – APITIMEOUT from Environment : null
+2017-12-16 16:23:07.0398 com.bmc.arsys.api.ARServerUser – AROVERLAYGROUPS from system property : null
+2017-12-16 16:23:07.0398 com.bmc.arsys.api.ARServerUser – AROVERLAYGROUPS from Environment : null
+2017-12-16 16:23:07.0877 com.bmc.arsys.arencrypt.ARFips – fipsProviderJsafeJCE installed = false
+2017-12-16 16:23:17.0936 com.bmc.arsys.apitransport.connection.ApiProxyManager – set timer period 60000 milliSec (00:01:00)
+2017-12-16 16:23:17.0978 com.bmc.arsys.apitransport.connection.ApiProxyFactory – Connects to 10.88.110.41:55000 through com.bmc.arsys.api.ProxyJRpc@6b85cba9
+2017-12-16 16:23:17.0986 RemedyConnection:  – Connected to BMC Remedy successfully, server address:10.88.110.41
+2017-12-16 16:23:17.0988 RemedySRTAPI:  – SchemaName:SMART:OpentextIntegration
+2017-12-16 16:23:18.0228 SOAPGenerator:  – WONumber: WO0000000024377
+2017-12-16 16:23:18.0236 SOAPGenerator:  – Generated SOAPMessage:
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:smart-tbk.com:Remedy:SAPIntegration"><SOAP-ENV:Header/><SOAP-ENV:Body><urn:MT_RemedyWOReq><WONumber>WO0000000024377</WONumber><SRTFormName>Perform Fixed Asset Transfer</SRTFormName><DetailRequest>Requester: Didik Wijanarko||SENDER:|PT: PT SMART Tbk - Downstream|Company Code: 3300|Business Area: 3300 - PT SMART Tbk - Downstream|Business Unit/PCA: R124|Cost Center: R124FJC - FILLING JERRYCAN||ASSET INFORMATION|Request for Single Asset?: No|Type of Asset: Machinery &amp; Equipment of Plant &amp; Bulking (excl. Power Plant &amp; Utilities)|Asset Location: |SAP Asset Number: |Related to Internal Order?: | Internal Order Number: |Total Number of Internal Order: 47|Related to Equipment Number (PM Module)?: |Equipment Number (PM Module): |Total Number of Equipment Number (PM Module): |Acquisition Value (IDR): 16.531.329.346|Tax Facility: Non Bonded Zone|Already Obtain Approval from Custom?: |Business Reason: Per 1 Januari 2018 const center R124FJC di split menjadi 3 nomer Asset baru yaitu : R124FBI, R124FJC16, R124FJC6.|Split asset / mutasi asset ke Cost Centre baru dilakukan setelah Run Depre Dec 2017||RECEIVER|Asset Transfer Type: Between Cost Center|Business Unit/PCA: |Cost Center: R124FJC16||SUPPORTING DOCUMENTS|Is List of Internal Order Already Attached?: Yes|Is Equipment Number Already Attached?: Yes|Notes: - Standard Form Perform Fixed Asset Transfer|- Berita Acara Opname Asset R124FJC per tgl. 30 Juni 2017||Email Requester: didik.wijanarko@sinarmas-agri.com</DetailRequest><ActionType>CREATE</ActionType><TargetSystem>DWS</TargetSystem><isBase64>T</isBase64><RequestDate>2017-12-16T11:06:58.000+07:00</RequestDate><Function>R2R</Function><SRTLink>http://remedy-dev.smart-tbk.com:8080/ux/smart-it/#/search/WO0000000024377</SRTLink><RequestID>REQ000000020196</RequestID><SupportGroup>Fixed Asset &amp; Project Accounting Processor (SMART + SBE)</SupportGroup><SupportGroupTL>Fixed Asset &amp; Project Accounting Processor (SMART + SBE)</SupportGroupTL></urn:MT_RemedyWOReq></SOAP-ENV:Body></SOAP-ENV:Envelope>
+2017-12-16 16:23:18.0244 SOAPGenerator:  – Connection is down, http responde code: 401
+2017-12-16 16:23:19.0080 SOAPGenerator:  – SOAP Response: <SOAP:Envelope xmlns:SOAP='http://schemas.xmlsoap.org/soap/envelope/'><SOAP:Header/><SOAP:Body xmlns:urn='urn:smart-tbk.com:Remedy:SAPIntegration'><ns1:MT_RemedyWOReq_Response xmlns:ns1='urn:smart-tbk.com:Remedy:SAPIntegration'><STATUS>T</STATUS></ns1:MT_RemedyWOReq_Response></SOAP:Body></SOAP:Envelope>
+2017-12-16 16:23:39.0762 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 16:24:39.0762 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 16:25:39.0767 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 16:26:39.0764 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 16:27:39.0770 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 16:28:39.0769 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 16:29:39.0770 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 16:30:39.0772 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 16:31:39.0778 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 16:32:39.0781 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 16:33:39.0783 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 16:34:39.0780 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 16:35:00.0545 RemedyConnection:  – Connected to BMC Remedy successfully, server address:10.88.110.41
+2017-12-16 16:35:00.0546 RemedySRTAPI:  – SchemaName:SMART:OpentextIntegration
+2017-12-16 16:35:00.0735 SOAPGenerator:  – WONumber: WO0000000024376
+2017-12-16 16:35:00.0738 SOAPGenerator:  – Generated SOAPMessage:
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:urn="urn:smart-tbk.com:Remedy:SAPIntegration"><SOAP-ENV:Header/><SOAP-ENV:Body><urn:MT_RemedyWOReq><WONumber>WO0000000024376</WONumber><SRTFormName>Perform Fixed Asset Transfer</SRTFormName><DetailRequest>Requester: Didik Wijanarko||SENDER:|PT: PT SMART Tbk - Downstream|Company Code: 3300|Business Area: 3300 - PT SMART Tbk - Downstream|Business Unit/PCA: R124|Cost Center: R124FJC - FILLING JERRYCAN||ASSET INFORMATION|Request for Single Asset?: No|Type of Asset: Machinery &amp; Equipment of Plant &amp; Bulking (excl. Power Plant &amp; Utilities)|Asset Location: |SAP Asset Number: |Related to Internal Order?: | Internal Order Number: |Total Number of Internal Order: 36|Related to Equipment Number (PM Module)?: |Equipment Number (PM Module): |Total Number of Equipment Number (PM Module): |Acquisition Value (IDR): 8.359.347.590|Tax Facility: Non Bonded Zone|Already Obtain Approval from Custom?: |Business Reason: Per 1 Januari 2018 const center R124FJC di split menjadi 3 nomer Asset baru yaitu : R124FBI, R124FJC16, R124FJC6.|Split asset / mutasi asset ke Cost Centre baru dilakukan setelah Run Depre Dec 2017||RECEIVER|Asset Transfer Type: Between Cost Center|Business Unit/PCA: |Cost Center: R124FJC6||SUPPORTING DOCUMENTS|Is List of Internal Order Already Attached?: Yes|Is Equipment Number Already Attached?: Yes|Notes: - Standard Form Perform Fixed Asset Transfer|- Berita Acara Opname Asset R124FJC per tgl. 30 Juni 2017|</DetailRequest><ActionType>CREATE</ActionType><TargetSystem>DWS</TargetSystem><isBase64>T</isBase64><RequestDate>2017-12-16T16:34:46.000+07:00</RequestDate><Function>R2R</Function><SRTLink>http://remedy-dev.smart-tbk.com:8080/ux/smart-it/#/search/WO0000000024376</SRTLink><RequestID>REQ000000020197</RequestID><SupportGroup>Fixed Asset &amp; Project Accounting Processor (SMART + SBE)</SupportGroup><SupportGroupTL>Fixed Asset &amp; Project Accounting Processor (SMART + SBE)</SupportGroupTL></urn:MT_RemedyWOReq></SOAP-ENV:Body></SOAP-ENV:Envelope>
+2017-12-16 16:35:00.0745 SOAPGenerator:  – Connection is down, http responde code: 401
+2017-12-16 16:35:01.0069 SOAPGenerator:  – SOAP Response: <SOAP:Envelope xmlns:SOAP='http://schemas.xmlsoap.org/soap/envelope/'><SOAP:Header/><SOAP:Body xmlns:urn='urn:smart-tbk.com:Remedy:SAPIntegration'><ns1:MT_RemedyWOReq_Response xmlns:ns1='urn:smart-tbk.com:Remedy:SAPIntegration'><STATUS>T</STATUS></ns1:MT_RemedyWOReq_Response></SOAP:Body></SOAP:Envelope>
+2017-12-16 16:35:39.0786 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 16:36:39.0790 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 16:37:39.0790 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 16:38:39.0789 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 16:39:39.0795 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-16 16:40:39.0797 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-18 14:14:19.0542 org.hibernate.validator.internal.util.Version – HV000001: Hibernate Validator 5.3.6.Final
+2017-12-18 14:14:21.0754 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-18 14:14:50.0231 org.hibernate.validator.internal.util.Version – HV000001: Hibernate Validator 5.3.6.Final
+2017-12-18 14:14:52.0299 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-18 14:15:52.0303 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-18 14:16:52.0306 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-18 14:17:52.0308 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-18 14:18:52.0310 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-18 14:19:52.0309 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-18 14:20:52.0312 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-18 14:21:52.0312 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-18 14:22:52.0318 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-18 14:23:52.0320 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-18 14:24:52.0322 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-18 14:25:52.0321 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-18 14:26:52.0327 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-18 14:27:52.0327 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-18 14:28:52.0330 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-18 14:29:52.0333 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-18 14:30:52.0334 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-18 14:31:52.0334 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-18 14:32:52.0339 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-18 14:33:52.0338 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-18 14:34:52.0343 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-18 14:35:52.0345 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-18 14:36:52.0344 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-18 14:37:52.0346 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-18 14:38:52.0349 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-18 14:39:52.0352 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-18 14:40:52.0354 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-18 14:41:52.0355 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-18 14:42:52.0361 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-18 14:43:52.0362 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-18 14:44:52.0365 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-18 14:45:52.0380 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-18 14:46:52.0370 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-18 14:47:52.0372 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-18 14:48:52.0375 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-18 14:49:52.0377 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-18 14:50:52.0380 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-18 14:51:52.0382 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-18 14:52:52.0385 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-18 14:53:52.0386 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-18 14:54:52.0388 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-18 14:55:52.0389 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-18 14:56:52.0392 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-18 14:57:52.0391 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-18 14:58:52.0394 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-18 14:59:52.0398 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-18 15:00:52.0402 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-18 15:01:52.0401 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-18 15:02:52.0407 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-18 15:03:52.0409 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-18 15:04:52.0411 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-18 15:05:52.0410 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-18 15:06:52.0416 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-18 15:07:52.0415 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-18 15:08:52.0420 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-18 15:09:52.0420 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-18 15:10:52.0425 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-18 15:11:52.0425 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-18 15:12:52.0430 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-18 15:13:52.0433 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-18 15:14:52.0435 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-18 15:15:52.0434 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-18 15:16:52.0439 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-18 15:17:52.0440 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-18 15:18:52.0444 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-18 15:19:52.0445 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-18 15:20:52.0448 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-18 15:21:52.0452 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-18 15:22:52.0454 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-18 15:23:52.0457 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-18 15:24:52.0459 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-18 15:25:52.0461 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-18 15:26:52.0464 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-18 15:27:52.0466 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-18 15:32:07.0207 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-18 15:33:07.0207 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-18 15:34:07.0211 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-18 15:35:07.0211 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-18 15:36:07.0218 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-18 15:37:07.0218 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-18 15:38:07.0219 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-18 15:39:07.0220 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-18 15:40:07.0226 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-18 15:41:07.0225 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-18 15:42:07.0226 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-18 15:43:07.0230 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-18 15:44:07.0229 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-18 15:45:07.0230 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-18 15:46:07.0233 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-18 15:47:07.0238 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-18 15:48:07.0238 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-18 15:49:07.0240 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-18 15:50:07.0243 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-18 15:51:07.0244 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-18 15:52:07.0250 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-18 15:53:07.0252 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-18 15:54:07.0254 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-18 15:55:07.0256 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-18 15:56:07.0255 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-18 15:57:07.0261 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-18 15:58:07.0258 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-18 15:59:07.0261 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-18 16:00:07.0267 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-18 16:01:07.0266 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-18 16:02:07.0269 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-18 16:03:07.0272 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-18 16:04:07.0274 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-18 16:05:07.0277 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-18 16:06:07.0280 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-18 16:07:07.0282 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-18 16:08:07.0285 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-18 16:09:07.0289 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-18 16:10:07.0290 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-18 16:11:07.0293 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-18 16:12:07.0291 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-18 16:13:07.0298 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-18 16:14:07.0296 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-18 16:15:07.0302 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-18 16:16:07.0301 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-18 16:17:07.0306 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-18 16:18:07.0305 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-18 16:19:07.0312 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-18 16:20:07.0310 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-18 16:21:07.0314 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-18 16:22:07.0318 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-18 16:23:07.0320 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-18 16:24:07.0319 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-18 16:47:34.0237 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-18 16:48:34.0230 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-18 16:49:34.0236 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-18 16:50:34.0232 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-18 16:51:34.0236 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-18 16:52:34.0239 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-18 16:53:34.0240 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-18 16:54:34.0236 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-18 16:55:34.0238 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-18 16:56:34.0239 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-19 15:29:31.0235 org.hibernate.validator.internal.util.Version – HV000001: Hibernate Validator 5.3.6.Final
+2017-12-19 15:29:33.0604 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-19 15:30:33.0610 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-19 15:30:52.0746 org.hibernate.validator.internal.util.Version – HV000001: Hibernate Validator 5.3.6.Final
+2017-12-19 15:30:54.0827 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-19 15:31:54.0832 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-19 15:32:04.0288 com.bmc.arsys.apitransport.ApiConfig – jrpcMode: true
+2017-12-19 15:32:04.0293 com.bmc.arsys.api.Config – jniLoadMode: 1
+2017-12-19 15:32:04.0293 com.bmc.arsys.api.Config – apiRecordingMode: 0
+2017-12-19 15:32:04.0293 com.bmc.arsys.api.Config – apiRecordingLogDir: 
+2017-12-19 15:32:04.0294 com.bmc.arsys.api.Config – useConnectionPooling: true
+2017-12-19 15:32:04.0294 com.bmc.arsys.api.Config – maxProxiesPerServer: 80
+2017-12-19 15:32:04.0294 com.bmc.arsys.api.Config – idleConnectionsPerServer: 5
+2017-12-19 15:32:04.0295 com.bmc.arsys.api.Config – connectionTimeout: 0
+2017-12-19 15:32:04.0295 com.bmc.arsys.api.Config – connectionLifespan: 0
+2017-12-19 15:32:04.0295 com.bmc.arsys.api.Config – timeUnit: MINUTES
+2017-12-19 15:32:04.0295 com.bmc.arsys.api.Config – minimumSupportedServerRpcVersion: 12
+2017-12-19 15:32:04.0295 com.bmc.arsys.api.Config – connectionMaxRetries: 1
+2017-12-19 15:32:04.0295 com.bmc.arsys.api.Config – timeLagBetweenRetriesMillSec: 100
+2017-12-19 15:32:04.0296 com.bmc.arsys.api.Config – stringizeFieldAssignments: false
+2017-12-19 15:32:04.0297 com.bmc.arsys.api.Config – stringizeSetIfQualification: false
+2017-12-19 15:32:04.0298 com.bmc.arsys.api.Config – useLegacyQualParser: false
+2017-12-19 15:32:04.0298 com.bmc.arsys.api.Config – useLegacyAssignParser: false
+2017-12-19 15:32:04.0298 com.bmc.arsys.api.Config – useLegacyQualFormatter: false
+2017-12-19 15:32:04.0298 com.bmc.arsys.api.Config – useLegacyAssignFormatter: false
+2017-12-19 15:32:04.0320 com.bmc.arsys.api.ARServerUser – APITIMEOUT from system property : null
+2017-12-19 15:32:04.0321 com.bmc.arsys.api.ARServerUser – APITIMEOUT from Environment : null
+2017-12-19 15:32:04.0321 com.bmc.arsys.api.ARServerUser – AROVERLAYGROUPS from system property : null
+2017-12-19 15:32:04.0322 com.bmc.arsys.api.ARServerUser – AROVERLAYGROUPS from Environment : null
+2017-12-19 15:32:04.0853 com.bmc.arsys.arencrypt.ARFips – fipsProviderJsafeJCE installed = false
+2017-12-19 15:32:54.0835 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-19 15:33:54.0837 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-19 15:34:46.0010 com.bmc.arsys.api.ProxyManager – UsePooling: true
+2017-12-19 15:34:46.0019 com.bmc.arsys.api.ProxyManager – , Pool info: server- 10.88.110.41:55000, # free proxy- 0, # in used- 0, # not created- 80, establish- Dec 19 2017 15:32:04, last used- Dec 19 2017 15:33:59, # ever reached pool size- 0, # maxProxyPerServer- 80, # idleConnectionsPerServer- 5, connectionTimeout setting- 00:00:00, connectionLifespan setting- 00:00:00
+2017-12-19 15:34:46.0022 com.bmc.arsys.apitransport.connection.ApiProxyFactory – Connects to 10.88.110.41:55000 through Java Rpc failed with: ERROR (90): Cannot establish a network connection to the AR System server; Operation timed out (Connection timed out) 10.88.110.41:55000
+2017-12-19 15:34:46.0025 RemedyConnection:  – Error on connection to Remedy: ERROR (90): Cannot establish a network connection to the AR System server; Operation timed out (Connection timed out) 10.88.110.41:55000
+2017-12-19 15:34:46.0028 RemedySRTAPI:  – SchemaName:SMART:OpentextIntegration
+2017-12-19 15:34:54.0839 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-19 15:35:54.0841 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-19 15:36:54.0843 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-19 15:37:16.0429 com.bmc.arsys.api.ProxyManager – UsePooling: true
+2017-12-19 15:37:16.0431 com.bmc.arsys.api.ProxyManager – , Pool info: server- 10.88.110.41:55000, # free proxy- 0, # in used- 0, # not created- 80, establish- Dec 19 2017 15:32:04, last used- Dec 19 2017 15:34:46, # ever reached pool size- 0, # maxProxyPerServer- 80, # idleConnectionsPerServer- 5, connectionTimeout setting- 00:00:00, connectionLifespan setting- 00:00:00
+2017-12-19 15:37:16.0431 com.bmc.arsys.apitransport.connection.ApiProxyFactory – Connects to 10.88.110.41:55000 through Java Rpc failed with: ERROR (90): Cannot establish a network connection to the AR System server; Operation timed out (Connection timed out) 10.88.110.41:55000
+2017-12-19 15:37:16.0433 RemedyConnection:  – Error on connection to Remedy: ERROR (90): Cannot establish a network connection to the AR System server; Operation timed out (Connection timed out) 10.88.110.41:55000
+2017-12-19 15:37:16.0435 RemedySRTAPI:  – SchemaName:SMART:OpentextIntegration
+2017-12-19 15:37:54.0844 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-19 15:38:54.0847 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-19 15:39:47.0184 com.bmc.arsys.api.ProxyManager – UsePooling: true
+2017-12-19 15:39:47.0184 com.bmc.arsys.api.ProxyManager – , Pool info: server- 10.88.110.41:55000, # free proxy- 0, # in used- 0, # not created- 80, establish- Dec 19 2017 15:32:04, last used- Dec 19 2017 15:37:16, # ever reached pool size- 0, # maxProxyPerServer- 80, # idleConnectionsPerServer- 5, connectionTimeout setting- 00:00:00, connectionLifespan setting- 00:00:00
+2017-12-19 15:39:47.0185 com.bmc.arsys.apitransport.connection.ApiProxyFactory – Connects to 10.88.110.41:55000 through Java Rpc failed with: ERROR (90): Cannot establish a network connection to the AR System server; Operation timed out (Connection timed out) 10.88.110.41:55000
+2017-12-19 15:39:54.0849 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-19 15:40:54.0851 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-19 15:41:54.0854 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-19 15:42:18.0283 com.bmc.arsys.api.ProxyManager – UsePooling: true
+2017-12-19 15:42:18.0284 com.bmc.arsys.api.ProxyManager – , Pool info: server- 10.88.110.41:55000, # free proxy- 0, # in used- 0, # not created- 80, establish- Dec 19 2017 15:32:04, last used- Dec 19 2017 15:39:47, # ever reached pool size- 0, # maxProxyPerServer- 80, # idleConnectionsPerServer- 5, connectionTimeout setting- 00:00:00, connectionLifespan setting- 00:00:00
+2017-12-19 15:42:18.0284 com.bmc.arsys.apitransport.connection.ApiProxyFactory – Connects to 10.88.110.41:55000 through Java Rpc failed with: ERROR (90): Cannot establish a network connection to the AR System server; Operation timed out (Connection timed out) 10.88.110.41:55000
+2017-12-19 15:42:54.0855 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-19 15:43:54.0858 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-19 15:44:49.0429 com.bmc.arsys.api.ProxyManager – UsePooling: true
+2017-12-19 15:44:49.0430 com.bmc.arsys.api.ProxyManager – , Pool info: server- 10.88.110.41:55000, # free proxy- 0, # in used- 0, # not created- 80, establish- Dec 19 2017 15:32:04, last used- Dec 19 2017 15:42:18, # ever reached pool size- 0, # maxProxyPerServer- 80, # idleConnectionsPerServer- 5, connectionTimeout setting- 00:00:00, connectionLifespan setting- 00:00:00
+2017-12-19 15:44:49.0430 com.bmc.arsys.apitransport.connection.ApiProxyFactory – Connects to 10.88.110.41:55000 through Java Rpc failed with: ERROR (90): Cannot establish a network connection to the AR System server; Operation timed out (Connection timed out) 10.88.110.41:55000
+2017-12-19 15:44:49.0430 RemedySRTAPI:  – Error on getRemedyRecordByQuery: ERROR (90): Cannot establish a network connection to the AR System server; Operation timed out (Connection timed out) 10.88.110.41:55000
+2017-12-19 15:44:54.0859 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-19 15:45:54.0863 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-19 15:46:54.0863 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-19 15:47:20.0332 com.bmc.arsys.api.ProxyManager – UsePooling: true
+2017-12-19 15:47:20.0333 com.bmc.arsys.api.ProxyManager – , Pool info: server- 10.88.110.41:55000, # free proxy- 0, # in used- 0, # not created- 80, establish- Dec 19 2017 15:32:04, last used- Dec 19 2017 15:42:18, # ever reached pool size- 0, # maxProxyPerServer- 80, # idleConnectionsPerServer- 5, connectionTimeout setting- 00:00:00, connectionLifespan setting- 00:00:00
+2017-12-19 15:47:20.0334 com.bmc.arsys.apitransport.connection.ApiProxyFactory – Connects to 10.88.110.41:55000 through Java Rpc failed with: ERROR (90): Cannot establish a network connection to the AR System server; Operation timed out (Connection timed out) 10.88.110.41:55000
+2017-12-19 15:47:20.0339 RemedySRTAPI:  – Error on getRemedyRecordByQuery: ERROR (90): Cannot establish a network connection to the AR System server; Operation timed out (Connection timed out) 10.88.110.41:55000
+2017-12-19 15:47:54.0866 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-19 15:48:54.0868 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-19 15:49:54.0867 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-19 15:50:54.0873 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-19 15:51:54.0875 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-19 15:52:54.0877 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-19 15:53:54.0879 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-19 15:54:54.0881 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-19 15:55:54.0885 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-19 15:56:54.0887 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-19 15:57:54.0889 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-19 15:58:54.0891 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-19 15:59:54.0894 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-19 16:00:54.0896 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-19 16:01:54.0898 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-19 16:02:54.0896 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-19 16:03:54.0900 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-19 16:04:54.0904 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-19 16:05:54.0906 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-19 16:06:54.0910 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-19 16:07:54.0912 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-19 16:08:54.0914 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-19 16:11:41.0742 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-19 16:12:41.0743 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-19 16:13:41.0745 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-19 16:14:41.0747 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-19 16:15:41.0748 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-19 16:16:41.0751 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-19 16:17:41.0751 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-19 16:18:41.0753 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-19 16:19:41.0756 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-19 16:20:41.0758 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-19 16:21:41.0759 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-19 16:22:41.0761 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-19 16:23:41.0763 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-19 16:24:41.0765 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-19 16:25:41.0764 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-19 16:26:41.0769 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-19 16:27:41.0771 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-19 16:28:41.0771 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-19 16:29:41.0770 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-19 16:30:41.0775 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-19 16:31:41.0777 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-19 16:32:41.0777 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-19 16:33:41.0782 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-19 16:34:41.0785 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-19 16:35:41.0784 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-19 16:36:41.0787 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-19 16:37:41.0786 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-19 16:38:41.0791 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-19 16:39:41.0793 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-19 16:40:41.0795 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-19 16:41:41.0798 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-19 16:42:41.0800 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-19 17:14:38.0645 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-19 17:15:38.0647 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-19 17:16:38.0653 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-19 17:17:38.0650 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-19 17:18:38.0652 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-19 17:19:38.0654 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-19 17:20:38.0655 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-19 17:21:38.0658 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-19 17:22:50.0701 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-19 17:23:50.0697 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-19 17:24:50.0699 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-19 17:25:50.0701 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-19 17:26:50.0703 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-19 17:27:50.0704 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-19 17:28:50.0705 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-19 17:29:50.0708 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-19 17:30:50.0710 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-19 17:31:50.0711 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-19 17:32:50.0713 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-19 17:33:50.0711 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-19 17:34:50.0717 Scheduler Jobs: – Scheduler jobs is running from xml
+2017-12-19 17:35:50.0719 Scheduler Jobs: – Scheduler jobs is running from xml
